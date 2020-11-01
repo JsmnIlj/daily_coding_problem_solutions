@@ -18,7 +18,7 @@ function cons(a, b)
     return pair;
 }
 
-//since JavaScript doesn't support arrays we have to implement it tuples as arrays for example.
+//since JavaScript doesn't support tuples we have to implement it as arrays for example.
 
 function consJS(a, b)
 {
