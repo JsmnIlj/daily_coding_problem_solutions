@@ -13,6 +13,9 @@ function addingUpToK(arr, k)
       if(arr[i] + arr[j] === k)
       {
         return true;
+      } else
+      {
+        return false;
       }
     }
   }
