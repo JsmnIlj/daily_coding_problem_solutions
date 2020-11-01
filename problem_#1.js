@@ -13,10 +13,17 @@ function addingUpToK(arr, k)
       if(arr[i] + arr[j] === k)
       {
         return true;
-      } else
-      {
-        return false;
-      }
+      } 
+      /*  so far, this code satisfies all requirements of the problem. the following part doesn't work correctly but would be 
+          my approach to include the possibility for a false statement. if you have any idea on how to solve this, feel free 
+          to tell me. :)
+          -------------------------------------------------------------------------------------------------------------------
+
+              else
+              {
+                return false;
+              }
+      */
     }
   }
 }
